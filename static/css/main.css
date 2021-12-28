@@ -1,0 +1,15 @@
+.game-block {
+    width: 20px;
+    height: 20px;
+}
+
+.snake-body {
+    position: absolute;
+    background-color: rgb(127, 214, 255);
+}
+
+.food {
+    position: absolute;
+    background-color: rgb(255, 127, 223);
+    border-radius: 15px;
+}

@@ -1,0 +1,13 @@
+extends base.pug 
+
+block scripts 
+    script(src="/js/main.js") 
+
+block stylesheets 
+    link(rel="stylesheet", href="/css/main.css")
+
+block content 
+    div#game-window
+        h3#score Score: 0
+        div#food(class="food game-block")
+        div#snake
